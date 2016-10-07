@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="9589f190-57f8-4b5d-acd9-289b779dc713" activeEnvironment="Default environment" name="S14_easyJet_RESTServices_NFT" lastOpened="2016-10-06T14:51:44.092+01:00" resourceRoot="" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="bc851964-a379-4023-95d5-5c1619a175eb" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.10.104.80" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://10.10.104.80</con:endpoint></con:endpoints><con:resource name="Passenger-types" path="/commercial/v1/passenger-types" id="4b5ef414-5798-40e7-952f-3d23f43fbf19"><con:settings/><con:parameters/><con:method name="Passenger-types" id="f4bb7fe8-c6f9-4dd0-9ff3-b5bbcaede0c0" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:pas="http://10.10.104.80/commercial/v1/passenger-types">pas:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json;charset=ISO-8859-1</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:pas="http://10.10.104.80/commercial/v1/passenger-types">pas:Fault</con:element></con:representation><con:request name="Request 1" id="f6e8c3dd-a337-4829-9b04-9fa3e1bcd381" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:originalUri>http://10.10.104.80/commercial/v1/passenger-types</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="b0eb5065-7195-4cf5-bcbb-17eeb9b64f6d" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.10.104.80" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://10.10.104.80</con:endpoint></con:endpoints><con:resource name="Currencies" path="/commercial/v1/currencies" id="aa610e81-3f37-41cb-b309-f006b9f36a33"><con:settings/><con:parameters/><con:method name="Currencies" id="eeb7d4a1-5693-4751-82e4-b91b8049b0df" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:cur="http://10.10.104.80/commercial/v1/currencies">cur:Response</con:element></con:representation><con:request name="Request 1" id="f4850f23-d815-4574-b4ba-3464b93feafb" mediaType="application/json"><con:settings/><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="443afca8-a641-480f-aa44-8ada16b6a88a" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.10.104.80" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://10.10.104.80</con:endpoint></con:endpoints><con:resource name="Languages" path="/commercial/v1/languages" id="9171b457-5ebc-40c5-af92-e72001e4074f"><con:settings/><con:parameters/><con:method name="Languages" id="f3c9debf-f1b5-4b8f-9fd7-e37908b6611d" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:lan="http://10.10.104.80/commercial/v1/languages">lan:Response</con:element></con:representation><con:request name="Request 1" id="1e1738a4-cb23-4e69-b767-780a79d02012" mediaType="application/json"><con:settings/><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="671520f9-098d-42fd-915c-4eb41354e0c0" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.10.104.80" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://10.10.104.80</con:endpoint></con:endpoints><con:resource name="Airports" path="/commercial/v1/airports" id="95fb1b7a-aa7a-4e9c-bb58-c6fe50e142ea"><con:settings/><con:parameters/><con:method name="Airports" id="6d576926-161d-4874-bfd9-02883f34f3d2" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json;charset=ISO-8859-1</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:air="http://10.10.104.80/commercial/v1/airports">air:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:air="http://10.10.104.80/commercial/v1/airports">air:Response</con:element></con:representation><con:request name="Request 1" id="a0ae0f38-0abf-457a-8138-29afc2f42fe9" mediaType="application/json"><con:settings/><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="28a1ad7b-5b97-4093-bcf4-e5afb2211065" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.10.104.80" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://10.10.104.80</con:endpoint></con:endpoints><con:resource name="MarketGroups" path="/commercial/v1/marketGroups" id="a537463e-ea5e-414a-9022-f71cad60b192"><con:settings/><con:parameters/><con:method name="MarketGroups" id="38984d5e-4901-4dc6-a098-50e3398fcaa3" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:mar="http://10.10.104.80/commercial/v1/marketGroups">mar:Response</con:element></con:representation><con:request name="Request 1" id="45e10959-7d95-431a-bd40-4c20d0de2d29" mediaType="application/json"><con:settings/><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="9490c2a9-a4f8-4c4a-a298-e1d2d929793e" name="TestSuite_S14_easyJet_Services"><con:description>TestSuite generated for REST Service [http://10.10.104.80]</con:description><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="7ddcfc04-d4fa-4efd-8024-cae699b58798" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase_PassengerTypes" searchProperties="true"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Groovy Script" id="92ca0c5c-06ff-41e4-a6ed-c80f9eb86788" disabled="true"><con:settings/><con:config><script>import com.eviware.soapui.SoapUI 
+import com.eviware.soapui.settings.ProxySettings
+import java.io.File;
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+def projectLevel = testRunner.testCase.testSuite.project
+
+//remove all the existing custom properties set for the project
+String[] projectProperties
+while(projectLevel.getPropertyCount() > 0)
+	{
+		projectProperties = projectLevel.getPropertyNames()
+		projectLevel.removeProperty(projectProperties[projectLevel.getPropertyCount()-1])
+	}
+
+// Using the method projectPath you can get the project path which you are working
+def projectPath = groovyUtils.projectPath
+
+// Printing the value of the variable
+log.info projectPath
+
+
+//set project properties afresh	
+projectLevel.setPropertyValue("ProjectPath", context.expand('${projectDir}') + "/")
+projectLevel.setPropertyValue("LibraryFolder", context.expand('${projectDir}') + "//../resources/lib/")
+projectLevel.setPropertyValue("TargetFolder", context.expand('${projectDir}') + "//../../../target/")
+projectLevel.setPropertyValue("Module",  "flights")
+projectLevel.setPropertyValue("DataSourcePath", context.expand('${projectDir}') + "//../resources/data/"+projectLevel.getPropertyValue("Module")+"/")
+projectLevel.setPropertyValue("ResourcesPath", context.expand('${projectDir}') + "//../resources/")
+
+
+log.info "ProjectPath--> " + ${projectDir}
+
+
+/*
+Properties prop = new Properties()
+def propFilePath = context.expand('${#Project#ResourcesPath}') + "/Project.prop"
+
+FileInputStream fs = new FileInputStream(propFilePath)
+prop.load(fs)
+
+def runEnviroment
+def i = 0
+
+List list = Collections.list(prop.propertyNames())
+
+if(list.size() == 0)
+	{
+		com.eviware.soapui.support.UISupport.showInfoMessage("Execution environment specified in project properties should be for a single environment. Aborting test run!")
+		testRunner.cancel("No test environment chosen for test")
+	}
+
+//this would set the environment for the local machine box as System Property of Env for local machine would be null. This is because Env is set as a property in jenkins job goals
+if(System.getProperty("Env") == null)
+	{
+		runEnviroment = prop.getProperty(list.get(0))
+		projectLevel.setPropertyValue("ExecutionBox","Local")
+	}
+else
+	{
+		runEnviroment = System.getProperty("Env")
+		projectLevel.setPropertyValue("ExecutionBox","Bamboo")
+	}
+	
+//load project properties from ProjectPropertiesDef.csv file
+context.fileReader = new BufferedReader(new FileReader(context.expand('${#Project#ResourcesPath}') + "/ProjectPropertiesDef.csv"))
+
+String[] propertyLine
+String str_tempString
+boolean blnEnvFound = false, cont_loop = true
+
+while(cont_loop)
+	{
+		try
+			{
+				str_tempString = context.fileReader.readLine()
+				if(str_tempString.startsWith(","))
+					{
+						str_tempString = "null" + str_tempString
+					}
+				if(str_tempString.endsWith(","))
+					{
+						str_tempString += "null"
+					}
+				
+				propertyLine = str_tempString.split(",")
+				
+				
+				if(propertyLine[0] == "Env")
+					{
+						if(propertyLine[1].equalsIgnoreCase(runEnviroment))
+							{
+								blnEnvFound = true
+								cont_loop = false
+								int thresholdLoopCounter = 1
+									while(!propertyLine[0].equalsIgnoreCase("EndEnv") &amp;&amp; thresholdLoopCounter &lt; 100)
+										{
+											projectLevel.setPropertyValue(propertyLine[0].replace("null",""), propertyLine[1].replace("null",""))
+											str_tempString = context.fileReader.readLine()
+											if(str_tempString.startsWith(","))
+												{
+													str_tempString = "null" + str_tempString
+												}
+											if(str_tempString.endsWith(","))
+												{
+													str_tempString += "null"
+												}
+											propertyLine = str_tempString.split(",")	
+											thresholdLoopCounter++
+										}
+									if(thresholdLoopCounter == 100)
+										{
+											com.eviware.soapui.support.UISupport.showInfoMessage("Too many properties defined for the project. Aborting test run!")
+											testRunner.cancel("Too many properties defined for the project")
+										}
+								break
+							}
+					}
+			}
+		catch(e)
+			{
+				cont_loop = false
+			}
+	}
+
+if(!blnEnvFound)
+	{
+		com.eviware.soapui.support.UISupport.showInfoMessage("No proper test environment defined. Aborting test run!")
+		testRunner.cancel("No proper test environment defined for the project")
+	}
+
+
+def shell = new GroovyShell()
+shell.setVariable("log", log)
+shell.setVariable("context", context)
+shell.setVariable("testRunner", testRunner)
+shell.evaluate(new File(context.expand('${#Project#LibraryFolder}') + "loadLibrary.groovy").text)
+def gObj_Library = context.groovyObject
+
+gObj_Library.setProxy(projectLevel.getPropertyValue("proxy"))
+	
+log.info "Loaded environment -- "	+ runEnviroment
+log.info "Loaded environment endpoint -- "	+ projectLevel.getPropertyValue("searchFlightsEndpoint")
+
+//load test case names for execution
+context.fileReader = new BufferedReader(new FileReader(context.expand('${#Project#ResourcesPath}') + "/TestExecution.csv"))
+String[] lineData
+
+String strEnv
+	
+	if(context.expand('${#Project#Env}').toLowerCase().indexOf("dev") != -1){
+		strEnv = "Dev"
+	}
+	else if(context.expand('${#Project#Env}').toLowerCase().indexOf("staging") != -1 || context.expand('${#Project#Env}').toLowerCase().indexOf("stg") != -1){
+		strEnv = "Stg"
+	}
+	else if(context.expand('${#Project#Env}').toLowerCase().indexOf("prod") != -1){
+		strEnv = "Prd"
+	}
+	else if(context.expand('${#Project#Env}').toLowerCase().indexOf("systest") != -1){
+		strEnv = "systest"
+	}
+	else if(context.expand('${#Project#Env}').toLowerCase().indexOf("mock") != -1){
+		strEnv = "mock"
+	}
+	else{
+		strEnv = "Temp"
+	}
+	
+def testCaseLevel = testRunner.testCase
+def testSuite = testRunner.testCase.testSuite
+def ExecuteTest = false
+
+headerLine = context.fileReader.readLine()
+
+	ArrayList&lt;String> lineDataTestExecutionFile = new ArrayList&lt;String>()
+	
+	lineDataTestExecutionFile = headerLine.split(",")
+	
+	int intExecuteYnColNo = lineDataTestExecutionFile.indexOf(strEnv+"ExecuteY/N")
+	
+
+int int_exeTCloopCounter = 0
+def continue_loop = true
+while(continue_loop)
+	{
+		try
+			{
+				lineData = context.fileReader.readLine().split(",")
+				//disable all test cases
+				testSuite.getTestCaseByName(lineData[0]).setDisabled(true)
+				//enable those test cases marked as run set to Y
+				if(lineData[intExecuteYnColNo].toUpperCase().compareTo("Y") == 0)
+					{
+						ExecuteTest = true
+						testSuite.getTestCaseByName(lineData[0]).setDisabled(false)
+						int_exeTCloopCounter++
+					}
+			}
+		catch(e)
+			{
+				continue_loop = false
+			}
+	}
+
+	if(!ExecuteTest)
+		{
+			testRunner.cancel("No Test chosen for execution")
+		}
+
+*/</script></con:config></con:testStep><con:testStep type="restrequest" name="Request_getPassengerTypes" id="411be6b1-7d7c-4b92-a67d-e0017c559112"><con:settings/><con:config service="http://10.10.104.80" resourcePath="/commercial/v1/passenger-types" methodName="Passenger-types" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request_getPassengerTypes" id="f6e8c3dd-a337-4829-9b04-9fa3e1bcd381" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Prefer" value="FULL"/>
+  <con:entry key="X-Debug" value="true"/>
+  <con:entry key="Accept-Language" value="en"/>
+  <con:entry key="Accept-Encoding" value="application/gzip"/>
+  <con:entry key="Accept" value="application/json"/>
+</xml-fragment>]]></con:setting></con:settings><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:originalUri>http://10.10.104.80/commercial/v1/passenger-types</con:originalUri><con:assertion type="Simple Contains" id="f2c2d4b0-d9ae-4857-8eff-03b3b06c9129" name="Contains"><con:configuration><token>passengerTypes</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>92ca0c5c-06ff-41e4-a6ed-c80f9eb86788</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>411be6b1-7d7c-4b92-a67d-e0017c559112</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="b891cde1-87dc-4ed3-b493-708cf8aca30c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase_Currencies" searchProperties="true"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Request_getCurrencies" id="ead924bb-3f14-4408-a1dd-f34748665ab7"><con:settings/><con:config service="http://10.10.104.80" methodName="Currencies" resourcePath="/commercial/v1/currencies" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request_getCurrencies" id="2b77913d-8031-4614-85f6-672886ec4359" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Prefer" value="FULL"/>
+  <con:entry key="Accept-Language" value="en"/>
+  <con:entry key="Accept-Encoding" value="application/gzip"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Debug" value="true"/>
+</xml-fragment>]]></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:originalUri>http://10.10.104.80/commercial/v1/currencies</con:originalUri><con:assertion type="Simple Contains" id="0e42fd98-f284-44cc-b07b-66352b4a0a70" name="Contains"><con:configuration><token>currencies</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="d11ecad0-74de-46d6-8ea1-8cdfca2fbcc7" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase_languages" searchProperties="true"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Request_getLanguages" id="38bb095c-9b00-43ce-9f9d-ba6ce2ce154e"><con:settings/><con:config service="http://10.10.104.80" methodName="Languages" resourcePath="/commercial/v1/languages" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request_getLanguages" id="7c8c5fb4-95ca-45d5-9960-192edc89c963" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Prefer" value="FULL"/>
+  <con:entry key="Accept-Language" value="en"/>
+  <con:entry key="Accept-Encoding" value="application/gzip"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Debug" value="true"/>
+</xml-fragment>]]></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:originalUri>http://10.10.104.80/commercial/v1/languages</con:originalUri><con:assertion type="Simple Contains" id="7ece43f1-4711-40af-bb03-919ef7acb0d2" name="Contains"><con:configuration><token>languages</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="a72474ba-b736-46c1-ba98-2003488a3bf1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase_airports" searchProperties="true"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Request_getAirports" id="0557f21a-b1f6-46a5-a26d-2367583f1f53"><con:settings/><con:config service="http://10.10.104.80" methodName="Airports" resourcePath="/commercial/v1/airports" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request_getAirports" id="888f4a6c-7ff4-4d14-9117-7edc5efa6e1b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Prefer" value="FULL"/>
+  <con:entry key="Accept-Language" value="en"/>
+  <con:entry key="Accept-Encoding" value="application/gzip"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Debug" value="true"/>
+</xml-fragment>]]></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:originalUri>http://10.10.104.80/commercial/v1/airports</con:originalUri><con:assertion type="Simple Contains" id="71b3f69c-3baa-4d5f-8bc5-1cfb166bcf3a" name="Contains"><con:configuration><token>airports</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="61c23449-ba82-492f-a3e1-9689313ce10c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase_marketGroups" searchProperties="true"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Request_getMarketGroups" id="5b7e9cbf-1c0e-41e2-81ad-9a9d685c03ca"><con:settings/><con:config service="http://10.10.104.80" methodName="MarketGroups" resourcePath="/commercial/v1/marketGroups" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request_getMarketGroups" id="137ccaee-cf76-4526-b31b-cdbcdbb2da19" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Prefer" value="FULL"/>
+  <con:entry key="Accept-Language" value="en"/>
+  <con:entry key="Accept-Encoding" value="application/gzip"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Debug" value="true"/>
+</xml-fragment>]]></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.10.104.80</con:endpoint><con:request/><con:originalUri>http://10.10.104.80/commercial/v1/marketGroups</con:originalUri><con:assertion type="Simple Contains" id="ce08c26e-2f7a-4b47-9ecc-894ae96a1330" name="Contains"><con:configuration><token>marketGroups</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/><con:properties><con:property><con:name>ProjectPath</con:name><con:value>C:\SoapuI-Scripts\04102016/</con:value></con:property><con:property><con:name>LibraryFolder</con:name><con:value>C:\SoapuI-Scripts\04102016//../resources/lib/</con:value></con:property><con:property><con:name>TargetFolder</con:name><con:value>C:\SoapuI-Scripts\04102016//../../../target/</con:value></con:property><con:property><con:name>Module</con:name><con:value>flights</con:value></con:property><con:property><con:name>DataSourcePath</con:name><con:value>C:\SoapuI-Scripts\04102016//../resources/data/flights/</con:value></con:property><con:property><con:name>ResourcesPath</con:name><con:value>C:\SoapuI-Scripts\04102016//../resources/</con:value></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:xmlTemplates/><con:parameters/><con:parameters/></con:reporting><con:reporting/><con:authRepository/><con:loadUiTest name="LoadUI NG Test 1" id="85451c09-11b0-423a-b534-d6833c363266"><con:settings><con:setting id="soapUIObjectSourceId">7ddcfc04-d4fa-4efd-8024-cae699b58798</con:setting><con:setting id="soapUIObjectSourceType">soapUIObjectSourceType_RestRequest</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.LoadUITestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Test Duration Limit" value="120"/>
+  <con:entry key="" value=""/>
+  <con:entry key="Abort Requests" value=""/>
+  <con:entry key="Report Format" value="PDF"/>
+  <con:entry key="Local Mode" value="true"/>
+  <con:entry key="Agents" value=""/>
+  <con:entry key="JUnit-Style Results" value="true"/>
+  <con:entry key="Arriving/Base VUs" value=""/>
+  <con:entry key="Statistics" value=""/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Failure Limit" value="0"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="SelectedStatistics" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Target Number Limit" value="0"/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="ExportStatistics" value="easyJet_ResultsStatsGroup;C:\easyJet\loadui\Sprint14\reports\LoadUI-NG-data-2016-10-04_11-53-36_1.csv;"/>
+  <con:entry key="Root Folder" value="C:\SoapuI-Scripts\04102016\report"/>
+  <con:entry key="Group results" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Create Reports" value="true"/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="LoadUITest" value="LoadUI NG Test 1"/>
+</xml-fragment>]]></con:setting></con:settings><con1:loadui-project id="ac48128b-a2c6-4ce8-80af-fe2d6bf10de2" label="LoadUI NG Test 1" xmlns:con1="http://eviware.com/loadui/config"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="CanvasItem.abortOnFinish" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="ModelItem.saveReport" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="ModelItem.reportFolder" type="java.lang.String"/><con1:property propagates="true" key="ModelItem.reportFormat" type="java.lang.String"/><con1:property propagates="true" key="Temporary project" type="java.lang.String"/><con1:property propagates="true" key="ModelItem.rate" type="java.lang.Long">5</con1:property><con1:property propagates="true" key="ModelItem.loadDistributionType" type="com.smartbear.load.facade.LoadDistributionType">Relative</con1:property><con1:property propagates="true" key="ModelItem.remoteMode" type="java.lang.String"/></con1:properties><con1:attributes><con1:property key="limits">Time=300;</con1:property></con1:attributes><con1:addons/><con1:scene label="s14_easyJet_Services" id="200bd562-c240-443c-aa8f-a7bb45b48109" version="90"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="CanvasItem.abortOnFinish" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="SceneItem.followProject" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="SceneItem.scenarioRatePercentage" type="java.lang.Long">100</con1:property><con1:property propagates="true" key="SceneItem.scenarioRateSpecific" type="java.lang.Long">10</con1:property></con1:properties><con1:attributes><con1:property key="limits">Time=300;</con1:property></con1:attributes><con1:addons/><con1:component type="com.eviware.loadui.impl.component.IntervalComponent" label="Interval 1" id="12798e21-ecad-4bdd-9650-6f2ab8388cd3" category="Scheduler"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="startAt" type="java.lang.Long">0</con1:property><con1:property propagates="true" key="duration" type="java.lang.Long">5</con1:property><con1:property propagates="true" key="unit" type="java.lang.String">Sec</con1:property><con1:property propagates="true" key="mode" type="java.lang.String">Single</con1:property><con1:property propagates="true" key="defaultMode" type="java.lang.Boolean">true</con1:property></con1:properties><con1:attributes><con1:property key="com.eviware.loadui.api.model.ComponentItem@type">Interval</con1:property></con1:attributes><con1:addons/></con1:component><con1:component type="com.eviware.loadui.components.soapui.SoapUISamplerComponent" label="TestSuite_S14_easyJet_Services:TestCase_PassengerTypes" id="e984485d-836c-45ea-b342-0450de56db5b" category="Runners"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="concurrentSamples" type="java.lang.Long">1000</con1:property><con1:property propagates="true" key="property_name_is_not_relevant_for_private_property" type="java.lang.Long">9223372036854775807</con1:property><con1:property propagates="true" key="maxQueueSize" type="java.lang.Long">1000</con1:property><con1:property propagates="true" key="countDiscarded" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="disabledTestSteps" type="java.lang.String"/><con1:property propagates="true" key="_thinkTime" type="java.lang.Long">1000</con1:property><con1:property propagates="true" key="ReadyApiTestCase" type="com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase">7ddcfc04-d4fa-4efd-8024-cae699b58798</con1:property><con1:property propagates="true" key="raiseError" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="outputTestCaseProperties" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="OutputLevel" type="java.lang.String">TestCase only</con1:property><con1:property propagates="true" key="closeConnectionsAfterRequest" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="disableSoapuiAssertions" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="forceShareDatasources" type="java.lang.Boolean">true</con1:property></con1:properties><con1:attributes><con1:property key="com.eviware.loadui.api.model.ComponentItem@type">Ready API TestCase Runner</con1:property></con1:attributes><con1:addons/></con1:component><con1:component type="com.eviware.loadui.impl.component.generators.FixedRate" label="Fixed Rate 1" id="86e6f69d-43a1-443d-bb99-7e7269fc77d3" category="Generators"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="limitVU" type="java.lang.Long">25</con1:property><con1:property propagates="true" key="rate" type="java.lang.Long">5</con1:property><con1:property propagates="true" key="unit" type="java.lang.String">Sec</con1:property></con1:properties><con1:attributes><con1:property key="com.eviware.loadui.api.model.ComponentItem@type">Fixed Rate</con1:property></con1:attributes><con1:addons/></con1:component><con1:connection outputTerminalId="12798e21-ecad-4bdd-9650-6f2ab8388cd3/outgoingTerminal" inputTerminalId="86e6f69d-43a1-443d-bb99-7e7269fc77d3/stateTerminal"/><con1:connection outputTerminalId="86e6f69d-43a1-443d-bb99-7e7269fc77d3/triggerTerminal" inputTerminalId="e984485d-836c-45ea-b342-0450de56db5b/triggerTerminal"/><con1:connection outputTerminalId="e984485d-836c-45ea-b342-0450de56db5b/runningTerminal" inputTerminalId="86e6f69d-43a1-443d-bb99-7e7269fc77d3/Sample Count"/></con1:scene><con1:statistics><con1:page title="DefaultLoadUIStatisticPage"><con1:chartGroup type="com.eviware.loadui.api.statistics.model.chart.line.LineChartView" title="" groupType="Monitors"><con1:attributes/></con1:chartGroup><con1:chartGroup type="com.eviware.loadui.api.statistics.model.chart.line.LineChartView" title="easyJet_ResultsStatsGroup" groupType="Table"><con1:chart statisticHolder="e984485d-836c-45ea-b342-0450de56db5b"><con1:attributes><con1:property key="_CHART_segments">67:36:e984485d-836c-45ea-b342-0450de56db5b10:Time Taken7:AVERAGE4:main76:36:e984485d-836c-45ea-b342-0450de56db5b10:Time Taken15:PERCENTILE_90TH4:main65:36:e984485d-836c-45ea-b342-0450de56db5b10:Time Taken5:COUNT4:main63:36:e984485d-836c-45ea-b342-0450de56db5b10:Time Taken3:MIN4:main63:36:e984485d-836c-45ea-b342-0450de56db5b10:Time Taken3:MAX4:main89:36:e984485d-836c-45ea-b342-0450de56db5b36:Request_getPassengerTypes: TimeTaken3:MIN4:main89:36:e984485d-836c-45ea-b342-0450de56db5b36:Request_getPassengerTypes: TimeTaken3:MAX4:main102:36:e984485d-836c-45ea-b342-0450de56db5b36:Request_getPassengerTypes: TimeTaken15:PERCENTILE_90TH4:main91:36:e984485d-836c-45ea-b342-0450de56db5b36:Request_getPassengerTypes: TimeTaken5:COUNT4:main</con1:property></con1:attributes></con1:chart><con1:attributes/></con1:chartGroup></con1:page></con1:statistics><con1:heatUpTime>15</con1:heatUpTime></con1:loadui-project><con:loadUITestScenario projectId="ac48128b-a2c6-4ce8-80af-fe2d6bf10de2" scenarioId="200bd562-c240-443c-aa8f-a7bb45b48109" name="s14_easyJet_Services" id="200d2224-fa6d-43cd-9266-8294dd353a63"><con:settings/></con:loadUITestScenario><con:loadUIPanelData id="3e2bffd4-e74a-44c9-a276-2dd0dcb09b19"><con:panel>Log</con:panel><con:data><con:paramName>column_width@Timestamp</con:paramName><con:paramValue>84</con:paramValue></con:data><con:data><con:paramName>column_visible@Timestamp</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@ID</con:paramName><con:paramValue>57</con:paramValue></con:data><con:data><con:paramName>column_visible@ID</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@Status</con:paramName><con:paramValue>57</con:paramValue></con:data><con:data><con:paramName>column_visible@Status</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@TriggerTimestamp</con:paramName><con:paramValue>84</con:paramValue></con:data><con:data><con:paramName>column_visible@TriggerTimestamp</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@TimeTaken</con:paramName><con:paramValue>115</con:paramValue></con:data><con:data><con:paramName>column_visible@TimeTaken</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@_wait_time_</con:paramName><con:paramValue>106</con:paramValue></con:data><con:data><con:paramName>column_visible@_wait_time_</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@Bytes</con:paramName><con:paramValue>52</con:paramValue></con:data><con:data><con:paramName>column_visible@Bytes</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@HTTP Status</con:paramName><con:paramValue>90</con:paramValue></con:data><con:data><con:paramName>column_visible@HTTP Status</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@CurrentlyRunning</con:paramName><con:paramValue>75</con:paramValue></con:data><con:data><con:paramName>column_visible@CurrentlyRunning</con:paramName><con:paramValue>true</con:paramValue></con:data><con:data><con:paramName>column_width@Request</con:paramName><con:paramValue>67</con:paramValue></con:data><con:data><con:paramName>column_visible@Request</con:paramName><con:paramValue>false</con:paramValue></con:data><con:data><con:paramName>column_width@Response</con:paramName><con:paramValue>77</con:paramValue></con:data><con:data><con:paramName>column_visible@Response</con:paramName><con:paramValue>false</con:paramValue></con:data><con:data><con:paramName>column_width@soapui_context</con:paramName><con:paramValue>107</con:paramValue></con:data><con:data><con:paramName>column_visible@soapui_context</con:paramName><con:paramValue>false</con:paramValue></con:data></con:loadUIPanelData><con:reportParameters/></con:loadUiTest><con:tags/></con:soapui-project>
